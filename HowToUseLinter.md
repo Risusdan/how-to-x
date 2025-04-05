@@ -131,7 +131,7 @@ int main()
 
 Source: [google-style-clang-format](https://github.com/kehanXue/google-style-clang-format)
 
-```
+```yaml
 # Google C/C++ Code Style settings
 # https://clang.llvm.org/docs/ClangFormatStyleOptions.html
 # Author: Kehan Xue, kehan.xue (at) gmail.com
@@ -186,7 +186,7 @@ FixNamespaceComments: true
 IncludeBlocks: Preserve
 IndentCaseLabels: true
 IndentPPDirectives: None
-IndentWidth: 2
+IndentWidth: 4
 KeepEmptyLinesAtTheStartOfBlocks: true
 MaxEmptyLinesToKeep: 1
 NamespaceIndentation: None
@@ -194,7 +194,7 @@ ObjCSpaceAfterProperty: false
 ObjCSpaceBeforeProtocolList: true
 PointerAlignment: Left
 ReflowComments: false
-# SeparateDefinitionBlocks: Always   # Only support since clang-format 14
+SeparateDefinitionBlocks: Always   # Only support since clang-format 14
 SpaceAfterCStyleCast: false
 SpaceAfterLogicalNot: false
 SpaceAfterTemplateKeyword: true
